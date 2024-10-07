@@ -1,1 +1,1 @@
-web: python bg_remover.py
+web: gunicorn app:app
