@@ -1,1 +1,1 @@
-web: gunicorn app:app --timeout 60 --log-level debug
+web: python app.py
