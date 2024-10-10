@@ -26,5 +26,6 @@ def handle_remove_background():
     # Return the processed image
     return send_file(io.BytesIO(result), mimetype='image/png')
 
-if __name__ == "__main__":
-    app.run(debug=True)
+# Comment out the app.run part for Vercel
+# if __name__ == "__main__":
+#     app.run(debug=True)
